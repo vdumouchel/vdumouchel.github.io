@@ -1093,7 +1093,8 @@
 		}
 		.copyright {
 			color:#6B7C93;
-			max-width: 300px;
+			max-width: 350px;
+			font-size: 11px;
 		}
 
 		.whiteskew {

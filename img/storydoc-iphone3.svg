@@ -295,7 +295,6 @@
                     </g>
                 </g>
             </g>
-            <rect id="Rectangle-19" fill="#FFFFFF" x="28" y="271" width="423" height="672" rx="8"></rect>
             <text id="Chatbot-GIF" font-family="CamphorPro-Regular, Camphor Pro" font-size="33" font-weight="normal" letter-spacing="-0.396" fill="#3B7D7A">
                 <tspan x="152" y="600">Chatbot GIF</tspan>
             </text>
@@ -307,6 +306,7 @@
                 </g>
                 <rect id="iphone-rectangle-copy" fill-opacity="0.239999995" fill="url(#linearGradient-17)" x="21" y="108" width="436" height="770" rx="13"></rect>
                 <g id="iphone-screen" transform="translate(28.000000, 113.000000)">
+                    <rect id="Rectangle-19" fill="#A8A1B9" x="0" y="7" width="423" height="753" rx="8"></rect>
                     <mask id="mask-19" fill="white">
                         <use xlink:href="#path-18"></use>
                     </mask>

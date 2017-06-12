@@ -181,7 +181,7 @@
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.823529412   0 0 0 0 0.866666667   0 0 0 0 0.929411765  0 0 0 0.45 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-43" x="0" y="0" width="416.323232" height="72.5616836"></rect>
+        <rect id="path-43" x="2.84217094e-14" y="0" width="416.323232" height="72.5616836"></rect>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-44">
             <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
@@ -301,7 +301,7 @@
                     </g>
                 </g>
             </g>
-            <path d="M183.7975,564 L183.7975,564 C178.941721,563.983534 175.010974,560.053949 175,555.205102 L175,490.797394 C175.0096,485.947572 178.940747,482.016473 183.7975,482 L255.9025,482 C260.195111,482.014195 263.855603,485.109047 264.5775,489.33449 C264.465833,505.849159 264.41,522.362164 264.41,538.873504 C264.411667,545.046326 264.4175,551.218315 264.4275,557.389472 C263.421691,561.271262 259.920345,563.987102 255.905,564 L183.7975,564 Z M295.6975,490.235699 C299.715,488.258532 303,490.298109 303,494.771699 L303,551.230797 C303,555.704387 299.715,557.743964 295.6925,555.761805 L272.75,544.470484 C272.75,530.178464 272.75,515.88145 272.6375,501.581941 L295.6975,490.235699 Z" id="Combined-Shape" fill="#6CE5DE" fill-rule="nonzero"></path>
+            <rect id="Rectangle-19" fill="#FFFFFF" x="28" y="271" width="423" height="672" rx="8"></rect>
             <text id="Chatbot-GIF" font-family="CamphorPro-Regular, Camphor Pro" font-size="33" font-weight="normal" letter-spacing="-0.396" fill="#3B7D7A">
                 <tspan x="152" y="600">Chatbot GIF</tspan>
             </text>
@@ -570,7 +570,7 @@
                                 <path d="M9.43665709,47.3476765 L9.31160269,47.4727309 L21.3371164,59.4982446 L23.6921963,57.1431648 L13.896708,47.3476765 L23.6921963,37.5521882 L21.3371164,35.1971084 L9.31160269,47.2226221 L9.43665709,47.3476765 Z" id="Back-Arrow" fill="#007AFF"></path>
                             </g>
                             <g id="Nav-Bar" stroke-width="1" fill-rule="evenodd" transform="translate(87.167677, 158.316401)">
-                                <g id="Nav-Bar-Background">
+                                <g id="Nav-Bar-Background" fill="#F2F6FF" fill-opacity="0.65">
                                     <rect id="Background" x="0" y="0" width="424.129293" height="87.0740203"></rect>
                                 </g>
                                 <g id="Status-Bar">

@@ -344,16 +344,16 @@
                                             <tspan x="10.4080808" y="44.945172">Chloé.</tspan>
                                         </text>
                                     </g>
-                                    <g id="2nd-statement" transform="translate(110.585859, 151.548546)">
-                                        <path d="M0,0 L262.814792,0 C268.557078,0 273.212121,4.65728871 273.212121,10.3992707 L273.212121,162.052523 C273.212121,167.795881 268.556114,172.451793 262.814792,172.451793 L0,172.451793 L0,0 Z" id="Rectangle" fill="#FF70C5"></path>
+                                    <g id="2nd-statement" transform="translate(110.585859, 160.548546)">
+                                        <path d="M0,128 L262.814792,128 C268.557078,128 273.212121,132.652917 273.212121,138.397166 L273.212121,153.054628 C273.212121,158.796824 268.556114,163.451793 262.814792,163.451793 L0,163.451793 L0,128 Z" id="Rectangle" fill="#FF70C5"></path>
                                         <text id="I-will-help-you-tell" font-family="CamphorPro-Regular, Camphor Pro" font-size="20.2280017" font-weight="normal" line-spacing="20.8000011" fill="#FFFFFF">
-                                            <tspan x="10.4080808" y="24.1451709">I will help you tell your </tspan>
-                                            <tspan x="10.4080808" y="44.945172">medical story in order to </tspan>
-                                            <tspan x="10.4080808" y="65.7451732">guide the physician during</tspan>
-                                            <tspan x="10.4080808" y="86.5451743">your appointment. This</tspan>
-                                            <tspan x="10.4080808" y="107.345175">way, you can both focus </tspan>
-                                            <tspan x="10.4080808" y="128.145177">on what really matters to</tspan>
-                                            <tspan x="10.4080808" y="148.945178">questions de santé.  </tspan>
+                                            <tspan x="10.4080808" y="15.1451709">I will help you tell your </tspan>
+                                            <tspan x="10.4080808" y="35.945172">medical story in order to </tspan>
+                                            <tspan x="10.4080808" y="56.7451732">guide the physician during</tspan>
+                                            <tspan x="10.4080808" y="77.5451743">your appointment. This</tspan>
+                                            <tspan x="10.4080808" y="98.3451754">way, you can both focus </tspan>
+                                            <tspan x="10.4080808" y="119.145177">on what really matters to</tspan>
+                                            <tspan x="10.4080808" y="139.945178">questions de santé.  </tspan>
                                         </text>
                                     </g>
                                     <g id="Question" transform="translate(0.000000, 301.790639)">

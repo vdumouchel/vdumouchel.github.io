@@ -181,34 +181,28 @@
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.823529412   0 0 0 0 0.866666667   0 0 0 0 0.929411765  0 0 0 0.45 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-43" x="2.84217094e-14" y="0" width="416.323232" height="72.5616836"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-44">
-            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
-        </filter>
-        <rect id="path-45" x="0" y="0" width="29.2727273" height="10.6856673" rx="1.95000011"></rect>
-        <mask id="mask-46" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="29.2727273" height="10.6856673" fill="white">
+        <rect id="path-43" x="0" y="0" width="29.2727273" height="10.6856673" rx="1.95000011"></rect>
+        <mask id="mask-44" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="29.2727273" height="10.6856673" fill="white">
+            <use xlink:href="#path-43"></use>
+        </mask>
+        <path d="M1.951788,1.12480709 C1.59237329,1.12480709 1.3010101,1.42505068 1.3010101,1.77276237 L1.3010101,8.91290494 C1.3010101,9.27076076 1.59710245,9.56086022 1.951788,9.56086022 L24.7191919,9.56086022 L24.7191919,1.12480709 L1.951788,1.12480709 Z" id="path-45"></path>
+        <mask id="mask-46" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="23.4181818" height="8.43605314" fill="white">
             <use xlink:href="#path-45"></use>
         </mask>
-        <path d="M1.951788,1.12480709 C1.59237329,1.12480709 1.3010101,1.42505068 1.3010101,1.77276237 L1.3010101,8.91290494 C1.3010101,9.27076076 1.59710245,9.56086022 1.951788,9.56086022 L24.7191919,9.56086022 L24.7191919,1.12480709 L1.951788,1.12480709 Z" id="path-47"></path>
-        <mask id="mask-48" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="23.4181818" height="8.43605314" fill="white">
+        <ellipse id="path-47" cx="30.8989899" cy="3.09321948" rx="3.57777778" ry="3.09321948"></ellipse>
+        <mask id="mask-48" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="7.15555556" height="6.18643897" fill="white">
             <use xlink:href="#path-47"></use>
         </mask>
-        <ellipse id="path-49" cx="30.8989899" cy="3.09321948" rx="3.57777778" ry="3.09321948"></ellipse>
+        <ellipse id="path-49" cx="40.0060606" cy="3.09321948" rx="3.57777778" ry="3.09321948"></ellipse>
         <mask id="mask-50" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="7.15555556" height="6.18643897" fill="white">
             <use xlink:href="#path-49"></use>
         </mask>
-        <ellipse id="path-51" cx="40.0060606" cy="3.09321948" rx="3.57777778" ry="3.09321948"></ellipse>
-        <mask id="mask-52" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="7.15555556" height="6.18643897" fill="white">
+        <rect id="path-51" x="0" y="0" width="308.339394" height="44.8563135" rx="10.4000006"></rect>
+        <mask id="mask-52" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="308.339394" height="44.8563135" fill="white">
             <use xlink:href="#path-51"></use>
         </mask>
-        <rect id="path-53" x="0" y="0" width="308.339394" height="44.8563135" rx="10.4000006"></rect>
-        <mask id="mask-54" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="308.339394" height="44.8563135" fill="white">
-            <use xlink:href="#path-53"></use>
-        </mask>
-        <ellipse id="path-55" cx="32.9473684" cy="33.1868132" rx="31.8157895" ry="32.021978"></ellipse>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-56">
+        <ellipse id="path-53" cx="32.9473684" cy="33.1868132" rx="31.8157895" ry="32.021978"></ellipse>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-54">
             <feGaussianBlur stdDeviation="2.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
             <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
             <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
@@ -222,21 +216,21 @@
                 <feMergeNode in="shadowMatrixInner2"></feMergeNode>
             </feMerge>
         </filter>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-57">
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-55">
             <feGaussianBlur stdDeviation="2.048" in="SourceGraphic"></feGaussianBlur>
         </filter>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-58">
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-56">
             <feGaussianBlur stdDeviation="4.096" in="SourceGraphic"></feGaussianBlur>
         </filter>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-59">
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-57">
             <feGaussianBlur stdDeviation="4.096" in="SourceGraphic"></feGaussianBlur>
         </filter>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-60">
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-58">
             <stop stop-color="#FFFFFF" offset="0%"></stop>
             <stop stop-color="#FCF2FC" offset="100%"></stop>
         </linearGradient>
-        <ellipse id="path-61" cx="14.8815789" cy="14.978022" rx="14.8815789" ry="14.978022"></ellipse>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-62">
+        <ellipse id="path-59" cx="14.8815789" cy="14.978022" rx="14.8815789" ry="14.978022"></ellipse>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-60">
             <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.439215686   0 0 0 0 0.77254902  0 0 0 0.21 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
@@ -252,7 +246,7 @@
                 <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
             </feMerge>
         </filter>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-63">
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-61">
             <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
             <feOffset dx="0" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
             <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
@@ -266,7 +260,7 @@
                 <feMergeNode in="shadowMatrixInner2"></feMergeNode>
             </feMerge>
         </filter>
-        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-64">
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-62">
             <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
             <stop stop-color="#000000" offset="100%"></stop>
         </linearGradient>
@@ -526,14 +520,8 @@
                             <text id="140" font-family="CamphorPro-Regular, Camphor Pro" font-size="20.2280017" font-weight="normal">
                                 <tspan x="438.440404" y="887.059507" fill="#20D46A">140</tspan>
                             </text>
-                            <g id="Nav-Bar" stroke-width="1" fill-rule="evenodd" transform="translate(88.468687, 159.635704)">
-                                <g id="Background">
-                                    <g>
-                                        <use fill="black" fill-opacity="1" filter="url(#filter-44)" xlink:href="#path-43"></use>
-                                        <use fill-opacity="0.819999993" fill="#F8F8F8" fill-rule="evenodd" xlink:href="#path-43"></use>
-                                    </g>
-                                </g>
-                                <g id="Status-Bar-/-Black">
+                            <g id="Nav-Bar" stroke-width="1" fill-rule="evenodd" transform="translate(86.468687, 157.635704)">
+                                <g id="Status-Bar-/-Black" transform="translate(2.000000, 2.000000)">
                                     <rect id="Background" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="416.323232" height="22.6755261"></rect>
                                     <g id="Signal" transform="translate(7.216269, 8.503322)" fill="#000000">
                                         <ellipse id="Oval-1" cx="3.05303704" cy="3.11788484" rx="3.05303704" ry="3.11788484"></ellipse>
@@ -558,27 +546,16 @@
                                     </text>
                                     <path d="M346.336109,8.48984595 L341.674825,3.96821707 L341.385051,3.96821707 L341.385051,10.2039868 L338.400195,6.94088484 L337.499367,7.8817101 L341.305751,11.6217739 L337.499367,15.3618377 L338.400195,16.3020962 L341.385051,13.0384275 L341.385051,19.2741972 L341.765571,19.2741972 L346.380929,14.7406663 L343.211986,11.6217739 L346.336109,8.48984595 Z M342.495246,10.2039868 L342.495246,6.80265784 L344.46404,8.5033223 L342.495246,10.2039868 Z M342.495246,13.0384275 L344.487146,14.739092 L342.495246,16.4397564 L342.495246,13.0384275 Z" id="Bluetooth" fill="#000000" opacity="0.45"></path>
                                 </g>
-                                <text id="Label" font-family=".SFNSDisplay, .SF NS Display" font-size="18.8586677" font-weight="normal" letter-spacing="-0.452608023" fill="#000000">
-                                    <tspan x="187.087239" y="54.2808418">Label</tspan>
-                                </text>
-                                <text id="Label" font-family=".SFNSDisplay, .SF NS Display" font-size="18.8586677" font-weight="normal" letter-spacing="-0.452608023" fill="#007AFF">
-                                    <tspan x="362.465387" y="54.2808418">Label</tspan>
-                                </text>
-                                <text id="Label" font-family=".SFNSDisplay, .SF NS Display" font-size="18.8586677" font-weight="normal" letter-spacing="-0.452608023" fill="#007AFF">
-                                    <tspan x="29.9752727" y="54.2808418">Label</tspan>
-                                </text>
-                                <path d="M9.43665709,47.3476765 L9.31160269,47.4727309 L21.3371164,59.4982446 L23.6921963,57.1431648 L13.896708,47.3476765 L23.6921963,37.5521882 L21.3371164,35.1971084 L9.31160269,47.2226221 L9.43665709,47.3476765 Z" id="Back-Arrow" fill="#007AFF"></path>
+                                <rect id="Background" fill-opacity="0.65" fill="#F2F6FF" x="0.698989899" y="0.680696662" width="424.129293" height="87.0740203"></rect>
                             </g>
                             <g id="Nav-Bar" stroke-width="1" fill-rule="evenodd" transform="translate(87.167677, 158.316401)">
-                                <g id="Nav-Bar-Background" fill="#F2F6FF" fill-opacity="0.65">
-                                    <rect id="Background" x="0" y="0" width="424.129293" height="87.0740203"></rect>
-                                </g>
+                                <g id="Nav-Bar-Background"></g>
                                 <g id="Status-Bar">
                                     <rect id="Background" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="416.323232" height="23.0585452"></rect>
                                     <g id="Battery" transform="translate(340.864646, 3.374421)">
                                         <g id="Battery-Icon" transform="translate(36.428283, 2.812018)">
-                                            <use id="Battery" stroke="#000000" mask="url(#mask-46)" stroke-width="1.30000007" xlink:href="#path-45"></use>
-                                            <use id="Charge" stroke="#000000" mask="url(#mask-48)" stroke-width="1.30000007" fill="#000000" xlink:href="#path-47"></use>
+                                            <use id="Battery" stroke="#000000" mask="url(#mask-44)" stroke-width="1.30000007" xlink:href="#path-43"></use>
+                                            <use id="Charge" stroke="#000000" mask="url(#mask-46)" stroke-width="1.30000007" fill="#000000" xlink:href="#path-45"></use>
                                             <path d="M31.8747475,5.32289958 C31.8747475,6.31455041 31.0265835,7.13493152 29.9232323,7.27137791 L29.9232323,3.37442126 C31.0265835,3.51086765 31.8747475,4.33124876 31.8747475,5.32289958 Z" id="+" fill="#000000"></path>
                                         </g>
                                         <text id="89%" font-family="HelveticaNeue, Helvetica Neue" font-size="15.6000009" font-weight="normal" fill="#000000">
@@ -591,8 +568,8 @@
                                         <ellipse id="Oval-1" fill="#000000" cx="3.57777778" cy="3.09321948" rx="3.57777778" ry="3.09321948"></ellipse>
                                         <ellipse id="Oval-1-copy" fill="#000000" cx="12.6848485" cy="3.09321948" rx="3.57777778" ry="3.09321948"></ellipse>
                                         <ellipse id="Oval-1-copy-2" fill="#000000" cx="21.7919192" cy="3.09321948" rx="3.57777778" ry="3.09321948"></ellipse>
-                                        <use id="Oval-1-copy-3" stroke="#000000" mask="url(#mask-50)" stroke-width="1.30000007" xlink:href="#path-49"></use>
-                                        <use id="Oval-1-copy-4" stroke="#000000" mask="url(#mask-52)" stroke-width="1.30000007" xlink:href="#path-51"></use>
+                                        <use id="Oval-1-copy-3" stroke="#000000" mask="url(#mask-48)" stroke-width="1.30000007" xlink:href="#path-47"></use>
+                                        <use id="Oval-1-copy-4" stroke="#000000" mask="url(#mask-50)" stroke-width="1.30000007" xlink:href="#path-49"></use>
                                     </g>
                                     <text id="Sketch" font-family="HelveticaNeue, Helvetica Neue" font-size="14.9500008" font-weight="normal" fill="#000000">
                                         <tspan x="56.5939394" y="17.9368248">Sketch</tspan>
@@ -615,7 +592,7 @@
                                 <text id="You-can-answer-here…" font-family="CamphorPro-Regular, Camphor Pro" font-size="20.2280017" font-weight="normal" fill="#6B7C93">
                                     <tspan x="15.1811238" y="29.5123367">You can answer here…</tspan>
                                 </text>
-                                <use id="Rectangle" stroke="#D2DEEE" mask="url(#mask-54)" stroke-width="2.60000014" xlink:href="#path-53"></use>
+                                <use id="Rectangle" stroke="#D2DEEE" mask="url(#mask-52)" stroke-width="2.60000014" xlink:href="#path-51"></use>
                                 <rect id="Rectangle-2" fill="#739DFF" x="317.446465" y="0" width="66.3515152" height="44.8563135" rx="10.4000006"></rect>
                                 <text id="Send" font-family="CamphorPro-Medium, Camphor Pro" font-size="15.7299995" font-weight="400" fill="#FFFFFF">
                                     <tspan x="332.553535" y="27.1509434">Send</tspan>
@@ -630,23 +607,23 @@
                 <g id="Icon" transform="translate(206.000000, 893.000000)">
                     <g id="Color-base" transform="translate(0.052632, 0.065934)">
                         <g id="Super-colorful-base">
-                            <use fill-opacity="0.24" fill="url(#linearGradient-17)" fill-rule="evenodd" xlink:href="#path-55"></use>
-                            <use fill="black" fill-opacity="1" filter="url(#filter-56)" xlink:href="#path-55"></use>
+                            <use fill-opacity="0.24" fill="url(#linearGradient-17)" fill-rule="evenodd" xlink:href="#path-53"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-54)" xlink:href="#path-53"></use>
                         </g>
                         <path d="M32.9473684,66.2417582 C14.8091745,66.2417582 0.105263158,51.4425552 0.105263158,33.1868132 C0.105263158,14.9310711 14.8091745,0.131868132 32.9473684,0.131868132 C51.0855623,0.131868132 65.7894737,14.9310711 65.7894737,33.1868132 C65.7894737,51.4425552 51.0855623,66.2417582 32.9473684,66.2417582 Z M32.9473684,63.1428571 C49.3851066,63.1428571 62.7105263,49.7310794 62.7105263,33.1868132 C62.7105263,16.6425469 49.3851066,3.23076923 32.9473684,3.23076923 C16.5096302,3.23076923 3.18421053,16.6425469 3.18421053,33.1868132 C3.18421053,49.7310794 16.5096302,63.1428571 32.9473684,63.1428571 Z" id="Surrounding" fill-opacity="0.24" fill="url(#linearGradient-17)"></path>
                     </g>
                     <g id="Knob-shadow" transform="translate(15.552632, 18.274725)">
-                        <ellipse id="Oval-5" fill="#FF70C5" opacity="0.1" filter="url(#filter-57)" cx="17.4473684" cy="20.1428571" rx="14.8815789" ry="14.978022"></ellipse>
-                        <path d="M17.4473684,35.1208791 C25.6662375,35.1208791 32.3289474,23.2501551 32.3289474,14.978022 C32.3289474,6.70588886 25.6662375,0 17.4473684,0 C9.22849932,0 2.56578947,6.70588886 2.56578947,14.978022 C2.56578947,23.2501551 9.22849932,35.1208791 17.4473684,35.1208791 Z" id="Oval-7" fill="#FF70C5" opacity="0.2" filter="url(#filter-58)"></path>
-                        <path d="M17.4473684,41.3186813 C27.0832839,41.3186813 34.8947368,27.3531236 34.8947368,17.6212023 C34.8947368,7.88928101 27.0832839,0 17.4473684,0 C7.81145292,0 0,7.88928101 0,17.6212023 C0,27.3531236 7.81145292,41.3186813 17.4473684,41.3186813 Z" id="Oval-8" fill="#000000" opacity="0.4" style="mix-blend-mode: overlay;" filter="url(#filter-59)"></path>
+                        <ellipse id="Oval-5" fill="#FF70C5" opacity="0.1" filter="url(#filter-55)" cx="17.4473684" cy="20.1428571" rx="14.8815789" ry="14.978022"></ellipse>
+                        <path d="M17.4473684,35.1208791 C25.6662375,35.1208791 32.3289474,23.2501551 32.3289474,14.978022 C32.3289474,6.70588886 25.6662375,0 17.4473684,0 C9.22849932,0 2.56578947,6.70588886 2.56578947,14.978022 C2.56578947,23.2501551 9.22849932,35.1208791 17.4473684,35.1208791 Z" id="Oval-7" fill="#FF70C5" opacity="0.2" filter="url(#filter-56)"></path>
+                        <path d="M17.4473684,41.3186813 C27.0832839,41.3186813 34.8947368,27.3531236 34.8947368,17.6212023 C34.8947368,7.88928101 27.0832839,0 17.4473684,0 C7.81145292,0 0,7.88928101 0,17.6212023 C0,27.3531236 7.81145292,41.3186813 17.4473684,41.3186813 Z" id="Oval-8" fill="#000000" opacity="0.4" style="mix-blend-mode: overlay;" filter="url(#filter-57)"></path>
                     </g>
                     <g id="Knob-base" transform="translate(18.118421, 18.274725)">
                         <g id="Oval-2">
-                            <use fill="black" fill-opacity="1" filter="url(#filter-62)" xlink:href="#path-61"></use>
-                            <use fill="url(#linearGradient-60)" fill-rule="evenodd" xlink:href="#path-61"></use>
-                            <use fill="black" fill-opacity="1" filter="url(#filter-63)" xlink:href="#path-61"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-60)" xlink:href="#path-59"></use>
+                            <use fill="url(#linearGradient-58)" fill-rule="evenodd" xlink:href="#path-59"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-61)" xlink:href="#path-59"></use>
                         </g>
-                        <ellipse id="Oval-6" fill="url(#linearGradient-64)" style="mix-blend-mode: overlay;" cx="14.8815789" cy="14.978022" rx="12.3157895" ry="12.3956044"></ellipse>
+                        <ellipse id="Oval-6" fill="url(#linearGradient-62)" style="mix-blend-mode: overlay;" cx="14.8815789" cy="14.978022" rx="12.3157895" ry="12.3956044"></ellipse>
                     </g>
                 </g>
             </g>
